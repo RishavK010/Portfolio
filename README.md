@@ -10,8 +10,7 @@ Responsive Portfolio Website
 	•	Enhanced the Skills section with animated progress bars and 
                 an intuitive layout.
 		
-	•	Designed a chatbot interface using HTML, CSS, and JavaScript 
-                to simulate interaction.
+	•	100% SEO Friendly
 		
 	•	Implemented advanced animations using ScrollReveal.js 
                 for a dynamic user experience.
@@ -19,6 +18,7 @@ Responsive Portfolio Website
 	•	Optimized for mobile responsiveness and accessibility 
                 with ARIA labels.
 		
-	•	Technologies Used: HTML, CSS, JavaScript, ScrollReveal.js.
+	•	Developed a chatbot section for best user interactivity
+                Technologies Used: HTML, CSS, JavaScript, ScrollReveal.js.
 
 ** Link: 	https://rishavk010.github.io/Portfolio/**
