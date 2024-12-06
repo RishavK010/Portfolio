@@ -6,9 +6,8 @@ Responsive Portfolio Website
 	Key Features:
 	•	Integrated dark/light mode toggle by maintaining two CSS classes 
                 with smooth transitions
-		
-	•	Enhanced the Skills section with animated progress bars and 
-                an intuitive layout.
+
+  	•	Scroll to Top button for better user experience
 		
 	•	100% SEO Friendly
 		
