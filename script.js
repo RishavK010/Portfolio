@@ -68,8 +68,8 @@ function showChatResponse(question) {
 
 function getResponse(question) {
   const responses = {
-      "What languages you know?": " HTML, CSS, JavaScript, C and JAVA",
-      "What are your achievements?": "I have completed a Goldman Sachs Software Engineering Virtual Experience Program on Forage",
+      "What languages you know?": " JAVA, C, HTML, CSS, JavaScript and Typescript",
+      "What frameworks you use?": "Next.js, React.js, Express and Node js",
       "What is your rating in online coding platforms?": "Leetcode - 1384 || Codeforces - 792 (newbie)",
       "What are your hobbies?": "Gym and Football",
       "Where can I contact you?": "You can reach me at rishavkamal@gmail.com"
