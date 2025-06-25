@@ -3,413 +3,701 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio website of Rishav Kamal, showcasing skills, projects, and achievements in software and web development.">
-    <meta name="keywords" content="Rishav Kamal, Portfolio, Software Developer, Web Developer, Projects">
+    <meta name="description" content="Rishav Kamal - Full Stack Developer & Software Engineer. Passionate about creating innovative web solutions with modern technologies.">
+    <meta name="keywords" content="Rishav Kamal, Full Stack Developer, Software Engineer, React, Node.js, JavaScript, Portfolio">
     <meta name="author" content="Rishav Kamal">
-    <title>Personal Portfolio</title>
+    <title>Rishav Kamal | Full Stack Developer</title>
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="./imgs/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-	<script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="./imgs/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo-holder">
-            <div class="logo">RK</div>
-            <div class="logo-text">Portfolio Website</div>
-        </a>
-        <nav>
-			<p><b>Dark Mode</b></p>
-			<div class="theme-toggle">
-				<i id="toggleThemeIcon" class="fa-solid fa-toggle-on"></i>
-			</div>
-			
-            <ul id="menu">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-				<li>
-					<a href="#projects">Projects</a>
-				</li>
-                <li>
-                    <a href="#timeline">Timeline</a>
-                </li>
-                <li>
-                    <a href="#contact" class="button">Contact Me</a>
-                </li>
-            </ul>
-            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
-                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
-				</svg>
-            </a>
-        </nav>
-    </header>
-
-    <main>
-		<section class="hero container">
-			<div class="hero-blue">
-				<div>
-					<h1><small>Hi I'm</small>Rishav Kamal</h1>
-                    <p>
-						Aspiring Software Developer || Passionate about Coding & Web Development.<br>
-                        I am a dedicated and enthusiastic engineering student with a passion for problem-solving through coding and a keen interest in web development.<br> 
-                        Currently persuing a degree in Chemical Engineering at Birla Institute Of Technology. I am constantly seeking to improve my skills.
-                    </p>
-                    <div class="call-to-action">
-						<a href="./imgs/RishavKamal_Resume.pdf" target="_blank" class="button black">View Resume</a>
-						<a href="#contact" class="button white">Contact Me</a>
-					</div>
-                    <div class="social-links">
-						<a href="https://github.com/RishavK010" target="_blank"><img src="./imgs/github.png" class="links" alt="GitHub" width="48" /></a>
-						<a href="https://www.linkedin.com/in/rishav-kamal-69046a28b/" target="_blank"><img src="./imgs/linkedin.png" class="links" alt="LinkedIn" width="48" /></a>
-                        <a href="https://leetcode.com/u/RishavK10/" target="_blank"><img src="./imgs/leetcode.webp" class="links" alt="Leetcode" width="48" /></a>
-                        <a href="https://codeforces.com/profile/RishavK10" target="_blank"><img src="./imgs/codeforces.webp" class="links" alt="Codeforces" width="48" /></a>
-					</div>
-				</div>
-			</div>
-			<div class="hero">
-				<img src="./imgs/profile.png" alt="Rishav Kamal" width="100%" loading="lazy"/>
-			</div>
-		</section>
-
-        <section class="logos container">
-            <div class="marquee">
-                <div class="track">
-                    <img src="./imgs/html.png" alt="HTML" width="128" loading="lazy"/>
-                    <img src="./imgs/css.png" alt="CSS" width="128" loading="lazy" />
-                    <img src="./imgs/javascript.png" alt="JS" width="128"loading="lazy"/>
-					<img src="./imgs/java.png" width="128" alt="Java" loading="lazy"/>
-					<img src="./imgs/react.png" width="128" alt="Node.js" loading="lazy"/>
-                    <img src="./imgs/vscode.png" width="128" alt="VS Code" loading="lazy"/>
-                    <img src="./imgs/c.png" width="128" alt="C" loading="lazy"/>
-					<img src="./imgs/html.png" alt="HTML" width="128" loading="lazy"/>
-                    <img src="./imgs/IntelliJ.png" width="128" alt="IntelliJ IDEA" loading="lazy"/>
-					<img src="./imgs/Node.js_logo.svg.png" width="128" alt="Node.js" loading="lazy"/>
-                    <img src="./imgs/javascript.png" alt="JS" width="128" loading="lazy"/>
-                    <img src="./imgs/java.png" width="128" alt="Java" loading="lazy"/>
-					<img src="./imgs/react.png" width="128" alt="Node.js" loading="lazy"/>
-					<img src="./imgs/css.png" alt="CSS" width="128" loading="lazy" />
-                    <img src="./imgs/c.png" width="128" alt="C" loading="lazy"/>
-					<img src="./imgs/Node.js_logo.svg.png" width="128" alt="Node.js" loading="lazy"/>
-					<img src="./imgs/IntelliJ.png" width="128" alt="IntelliJ IDEA" loading="lazy"/>
-                    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Rishav<span class="highlight">.</span></span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="./imgs/RishavKamal_Resume.pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Resume
+                    </a>
                 </div>
             </div>
-        </section>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-		<section id="skills" class="skills">
-			<h2>Skills</h2>
-			<div class="skills-container">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Rishav Kamal</h1>
+                    <div class="hero-role">
+                        <span class="typed-text" id="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate Full Stack Developer with expertise in modern web technologies. 
+                        I create innovative digital solutions that bridge the gap between design and functionality.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="https://github.com/RishavK010" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rishav-kamal-69046a28b/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/RishavK10/" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="https://codeforces.com/profile/RishavK10" target="_blank" class="social-link">
+                            <i class="fas fa-trophy"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="./imgs/profile.png" alt="Rishav Kamal" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			  <div class="skills-left">
-				<div class="skills-category">
-				  <h3>Languages</h3>
-				  <div class="skills-grid">
-					<div class="skill-item">
-					  <i class="fab fa-html5 skill-icon"></i>
-					  <span>HTML</span>
-					</div>
-					<div class="skill-item">
-					  <i class="fab fa-css3-alt skill-icon"></i>
-					  <span>CSS</span>
-					</div>
-					<div class="skill-item">
-					  <i class="fab fa-js-square skill-icon"></i>
-					  <span>JavaScript</span>
-					</div>
-					<div class="skill-item">
-					  <i class="fab fa-java skill-icon"></i>
-					  <span>Java</span>
-					</div>
-					<div class="skill-item">
-						<img src="./imgs/c.png" class="skill-icon" width="40">
-					</div>
-				  </div>
-				</div>
-			  
-				<div class="skills-category">
-				  <h3>Developer Tools</h3>
-				  <div class="skills-grid">
-					<div class="skill-item">
-					  <i class="fab fa-git-alt skill-icon"></i>
-					  <span>Git</span>
-					</div>
-					<div class="skill-item">
-					  <i class="fab fa-github skill-icon"></i>
-					  <span>GitHub</span>
-					</div>
-					<div class="skill-item">
-					  <img src="./imgs/intel icon.webp" class="skill-icon" width="35">
-					  <span>IntelliJ IDEA</span>
-					</div>
-					<div class="skill-item">
-						<img src="./imgs/vsicon.png" class="skill-icon" width="40">
-					  <span>VS Code</span>
-					</div>
-				  </div>
-				</div>
+    <!-- Skills Marquee -->
+    <section class="skills-marquee">
+        <div class="marquee">
+            <div class="marquee-content">
+                <div class="skill-badge">
+                    <img src="./imgs/html.png" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/css.png" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/javascript.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/react.png" alt="React">
+                    <span>React</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/nodejs.png" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/java.png" alt="Java">
+                    <span>Java</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/nextjs.png" alt="Next.js">
+                    <span>Next.js</span>
+                </div>
+                <div class="skill-badge">
+                    <img src="./imgs/vscode.png" alt="VS Code">
+                    <span>VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<div class="skills-category">
-					<h3>Frameworks</h3>
-					<div class="skills-grid">
-					  <div class="skill-item">
-						<img src="./imgs/nodejs.png" class="skill-icon" width="35">
-						<span>Node.js</span>
-					  </div>
-					  <div class="skill-item">
-						<img src="./imgs/express.svg" class="skill-icon" width="40">
-						<span>Express.js</span>
-					  </div>
-					  <div class="skill-item">
-						<img src="./imgs/nextjs.png" class="skill-icon" width="35">
-						<span>Next.js</span>
-					  </div>
-					  <div class="skill-item">
-						<i class="fa-brands fa-react skill-icon"></i>
-						  <span>React.js</span>
-					  </div>
-					</div>
-				</div>
-			  </div>
-		  
-			  <div class="skills-right">
-				<h3>Proficiency</h3>
-				<div class="progress-bar-container">
-				  <div class="progress-bar">
-					<span class="label">JavaScript</span>
-					<div class="bar">
-					  <div class="fill" style="width: 30%;"></div>
-					</div>
-					<span class="percentage">30%</span>
-				  </div>
-				  <div class="progress-bar">
-					<span class="label">HTML</span>
-					<div class="bar">
-					  <div class="fill" style="width: 90%;"></div>
-					</div>
-					<span class="percentage">90%</span>
-				  </div>
-				  <div class="progress-bar">
-					<span class="label">CSS</span>
-					<div class="bar">
-					  <div class="fill" style="width: 70%;"></div>
-					</div>
-					<span class="percentage">75%</span>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		</section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about who I am, what I do, and my current skills</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I'm a passionate <strong>Chemical Engineering</strong> student at <strong>Birla Institute of Technology</strong> 
+                            with a deep love for coding and web development. My journey began with curiosity about how websites work, 
+                            and has evolved into a comprehensive skill set in modern web technologies.
+                        </p>
+                        <p>
+                            Currently maintaining a <strong>CGPA of 8.04</strong>, I balance my academic pursuits with hands-on 
+                            experience in full-stack development, always seeking to create innovative solutions that make a difference.
+                        </p>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1384</div>
+                            <div class="stat-label">LeetCode Rating</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">792</div>
+                            <div class="stat-label">Codeforces Rating</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">8.04</div>
+                            <div class="stat-label">Current CGPA</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-section">
+                    <div class="skills-card">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Frontend</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">React.js</span>
+                                    <span class="skill-tag">Next.js</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>Backend</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Node.js</span>
+                                    <span class="skill-tag">Express.js</span>
+                                    <span class="skill-tag">Java</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4>Tools & Others</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">VS Code</span>
+                                    <span class="skill-tag">IntelliJ IDEA</span>
+                                    <span class="skill-tag">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<section id="projects" class="projects">
-			<h2>Projects</h2>
-			<div class="completed">
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What I can do for you</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Creating responsive, interactive, and user-friendly web interfaces using modern frameworks like React and Next.js.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Modern UI/UX</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Building robust server-side applications and APIs using Node.js, Express, and modern backend technologies.</p>
+                    <ul class="service-features">
+                        <li>RESTful APIs</li>
+                        <li>Database Integration</li>
+                        <li>Authentication & Security</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Full Stack Solutions</h3>
+                    <p>End-to-end web application development combining frontend and backend technologies for complete solutions.</p>
+                    <ul class="service-features">
+                        <li>MERN Stack</li>
+                        <li>Real-time Features</li>
+                        <li>Deployment & Hosting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			  <!-- Project 1 -->
-			  <div class="project-card">
-				<div class="one">
-				  <div class="card-front">
-					<img src="./imgs/zerodha.png" alt="Zerodha CLone" loading="lazy"/>
-					<figcaption>Zerodha Clone</figcaption>
-				  </div>
-				  <div class="card-back">
-					<article>
-					  <h3>
-						<ul>
-							<li>A full-stack stock trading platform built using MERN stack and  Bootstrap </li>
-							<li>React based Dashboard which features real-time stock data, portfolio tracking, and JWT-based authentication for secure access.</li>
-							<li>Optimized backend queries and caching strategies improved API response time.</li>
-						</ul>
-						<a href="https://github.com/RishavK010/Major-Projects/tree/main/Zerodha-Clone" target="_blank">
-						<button class="button">View Code</button>
-						</a>
-					  </h3>
-					</article>
-				  </div>
-				</div>
-			  </div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and personal projects</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <img src="./imgs/zerodha.png" alt="Zerodha Clone">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/RishavK010/Major-Projects/tree/main/Zerodha-Clone" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Full Stack</div>
+                        <h3 class="project-title">Zerodha Clone</h3>
+                        <p class="project-description">
+                            A comprehensive stock trading platform built with MERN stack featuring real-time data, 
+                            portfolio tracking, and secure JWT authentication. Optimized backend queries improved API response time significantly.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./imgs/weather.png" alt="Weather App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://weather-api-sepia-eta.vercel.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">Weather API App</h3>
+                        <p class="project-description">
+                            Real-time weather application with Material-UI design, fetching live data via OpenWeather API.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Material-UI</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./imgs/Todo.png" alt="Todo App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://todo-list-lime-nine.vercel.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Frontend</div>
+                        <h3 class="project-title">Todo List App</h3>
+                        <p class="project-description">
+                            Interactive todo application with persistent storage using localStorage and modern React patterns.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">LocalStorage</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./imgs/lottery.png" alt="Lottery Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://mini-project-3-drab.vercel.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Game Development</div>
+                        <h3 class="project-title">Lottery Game</h3>
+                        <p class="project-description">
+                            Interactive lottery ticket game with engaging UI and random number generation algorithms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Game Logic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./imgs/simon.png" alt="Simon Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Game Development</div>
+                        <h3 class="project-title">Simon Game</h3>
+                        <p class="project-description">
+                            Classic memory-based game with progressive difficulty and responsive design for all devices.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Game Logic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <a href="https://github.com/RishavK010" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i>
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
 
-			  <!--Project 2-->
-			  <div class="project-card">
-				<div class="one">
-				  <div class="card-front">
-					<img src="./imgs/weather.png" alt="Project 4" loading="lazy"/>
-					<figcaption>Weather API</figcaption>
-				  </div>
-				  <div class="card-back">
-					<article>
-					  <h3>A real-time Weather Application built using React and Material-UI.Fetches live weather data via OpenWeather API. <br>
-						<a href="https://weather-api-sepia-eta.vercel.app/" target="_blank">
-							<button class="button">View Website</button>
-						</a>
-					  </h3>
-					</article>
-				  </div>
-				</div>
-			  </div>
-			  
-			  <!--Project 3-->
-			  <div class="project-card">
-				<div class="one">
-				  <div class="card-front">
-					<img src="./imgs/Todo.png" alt="Project 3" loading="lazy"/>
-					<figcaption>Todo List</figcaption>
-				  </div>
-				  <div class="card-back">
-					<article>
-					    <h3>A sleek, interactive, and responsive Todo List Application built 
-						with React.js.<br><br>Intuitive features like adding, marking, deleting, and 
-						persisting tasks using localStorage.<br>
-						<a href="https://todo-list-lime-nine.vercel.app/" target="_blank">
-							<button class="button">View Website</button>
-						</a>
-						</h3>
-					</article>
-				  </div>
-				</div>
-			  </div>
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Journey</h2>
+                <p class="section-subtitle">Education and milestones that shaped my career</p>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <div class="timeline-card">
+                            <div class="timeline-image">
+                                <img src="./imgs/bitmesra.jpg" alt="BIT Mesra">
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Birla Institute of Technology</h3>
+                                <h4>B.E. Chemical Engineering</h4>
+                                <p><strong>CGPA:</strong> 8.04/10</p>
+                                <p>Currently pursuing Chemical Engineering while developing expertise in software development and web technologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-card">
+                            <div class="timeline-image">
+                                <img src="./imgs/NHES.webp" alt="NHES">
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Narbheram Hansraj English School</h3>
+                                <h4>ISC (Class XII)</h4>
+                                <p><strong>Percentage:</strong> 88%</p>
+                                <p>Key Subjects: Mathematics and Computer Science. Built foundation in programming concepts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2010 - 2020</div>
+                        <div class="timeline-card">
+                            <div class="timeline-image">
+                                <img src="./imgs/Loyola.jpg" alt="Loyola School">
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Loyola School</h3>
+                                <h4>ICSE (Class X)</h4>
+                                <p><strong>Percentage:</strong> 91%</p>
+                                <p>Key Subjects: Mathematics, Science, and Computer. First exposure to programming and logical thinking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			  <!--Project 4-->
-			  <div class="project-card">
-				<div class="one">
-				  <div class="card-front">
-					<img src="./imgs/lottery.png" alt="Project 5" />
-					<figcaption>Lottery Game</figcaption>
-				  </div>
-				  <div class="card-back">
-					<article>
-					  <h3>A simple and interactive lottery ticket game built with React. The game allows users to buy tickets and test their luck in winning the jackpot!
-					    <a href="https://mini-project-3-drab.vercel.app/" target="_blank">
-							<button class="button">View Website</button>
-						</a>
-					  </h3>
-					</article>
-				  </div>
-				</div>
-			  </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how we can bring your ideas to life</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Me</h3>
+                        <p>rishavkamal@gmail.com</p>
+                        <a href="mailto:rishavkamal@gmail.com" class="contact-link">Send Email</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me professionally</p>
+                        <a href="https://www.linkedin.com/in/rishav-kamal-69046a28b/" target="_blank" class="contact-link">View Profile</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Check out my code repositories</p>
+                        <a href="https://github.com/RishavK010" target="_blank" class="contact-link">View Projects</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            What technologies do you specialize in?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>I specialize in the MERN stack (MongoDB, Express.js, React, Node.js) along with modern JavaScript, HTML5, CSS3, and Java. I also work with frameworks like Next.js and have experience with various development tools.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            What's your coding experience level?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>I have a LeetCode rating of 1384 and Codeforces rating of 792. I've completed 15+ projects and have hands-on experience with full-stack development, API integration, and responsive design.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            Are you available for freelance work?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! I'm currently open to freelance opportunities and collaborative projects. Feel free to reach out to discuss your project requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            What's your educational background?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>I'm currently pursuing Chemical Engineering at Birla Institute of Technology with a CGPA of 8.04. I balance my academic studies with passionate self-learning in software development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			  <!--Project 5-->
-			  <div class="project-card">
-				<div class="one">
-				  <div class="card-front">
-					<img src="./imgs/simon.png" alt="Project 5" />
-					<figcaption>Simon Game</figcaption>
-				  </div>
-				  <div class="card-back">
-					<article>
-					    <h3>The Simon Game is a classic memory-based game where players must replicate an increasingly complex sequence of colors and sounds. <br><br>
-						Fully responsive design for seamless gameplay on all devices <br>  
-					    <a href="https://mini-project-3-drab.vercel.app/" target="_blank">
-							<button class="button">View Website</button>
-						</a>
-					  </h3>
-					</article>
-				  </div>
-				</div>
-			  </div>
-
-
-			</div>
-		</section>
-
-        <section id="timeline" class="timeline">
-			<h2>Timeline</h2>
-			<div class="school">
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/Loyola.jpg" alt="Loyola School" width="100%" loading="lazy"/>
-                            <figcaption>
-								Loyola School
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Loyola School</h3>
-					<div>ICSE (2010-2020)</div>
-                    <p>Key Subjects: Mathematics Science and Computer (91%)</p>
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/NHES.webp" alt="NHES" width="100%" loading="lazy"/>
-                            <figcaption>
-								NHES
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Narbheram Hansraj English High School</h3>
-					<div>ISC (2020-2022)</div>
-					<p>Key Subjects: Mathematics and Computer (88%)</p>
-				</article>
-				<article>
-					<figure>
-						<div>
-							<img src="./imgs/bitmesra.jpg" alt="BIT MESRA" width="100%" loading="lazy"/>
-                            <figcaption>
-								BIT MESRA
-							</figcaption>
-						</div>
-					</figure>
-					<h3>Birla Institute Of Technology</h3>
-					<div>B.E/B.Tech (2023-Current)</div>
-					<p>Chemical Engineering (CGPA: 8.04)</p>
-				</article>
-			</div>
-		</section>
-
-        <section id="contact" class="contact">
-			<h2>Contact Me</h2>
-			<div class="chatbot-blue">
-				<div class="chat-info">
-					<h4>Click on a question to see a response:<h4>
-					<button class="response" onclick="showChatResponse('What languages you know?')">What languages you know?</button>
-                    <button class="response" onclick="showChatResponse('What frameworks you use?')">What frameworks you use?</button>
-					<button class="response" onclick="showChatResponse('What is your rating in online coding platforms?')">What is your rating in online coding platforms?</button>
-					<button class="response" onclick="showChatResponse('What are your hobbies?')">What are your hobbies?</button>
-                    <button class="response" onclick="showChatResponse('Where can I contact you?')">Where can I contact you?</button>
-				</div>
-				<div class="chat-box">
-					<div class="scroll-area">
-						<ul id="chat-log">
-							<li>
-								<span class="avatar bot">AI</span>
-								<div class="message">
-									Hi, I am Rishav Kamal
-								</div>
-							</li>
-							<li>
-								<span class="avatar user">User</span>
-								<div class="message">
-									Any question? Just drop it down!
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="chat-message">
-						<input type="text" placeholder="Hey Rishav, what skills are you best at?">
-						<button class="button black">Send</button>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
-
-    <footer>
-		<button id="backToTop" title="Go to top" aria-label="Scroll to top">
-			<i class="fa-solid fa-angle-up"></i>
-		</button>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Rishav<span class="highlight">.</span></h3>
+                    <p>Full Stack Developer passionate about creating innovative digital solutions.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="footer-social">
+                            <a href="https://github.com/RishavK010" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/rishav-kamal-69046a28b/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://leetcode.com/u/RishavK10/" target="_blank">
+                                <i class="fas fa-code"></i>
+                            </a>
+                            <a href="https://codeforces.com/profile/RishavK10" target="_blank">
+                                <i class="fas fa-trophy"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rishav Kamal. All rights reserved.</p>
+                <div class="footer-actions">
+                    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
-</html>
 </body>
 </html>
